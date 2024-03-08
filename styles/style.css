@@ -1,0 +1,43 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif, Popins;
+    font-size: large;
+}
+
+header {
+    display: flex;
+    padding: 0% 5% 0% 5%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: deepskyblue;
+
+}
+
+nav {
+    width: 75%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#presentation {
+    height: 400px;
+    display: flex;
+}
+
+
+article {
+    padding: 0% 2% 0% 2%;
+    text-align: justify;
+    margin: 2% 0% 2% 0%;
+}
+
+footer {
+    background-color: deepskyblue;
+    height: 50px;
+    
+}
