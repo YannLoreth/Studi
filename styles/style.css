@@ -32,7 +32,7 @@ nav ul {
 
 article {
     padding: 0% 2% 0% 2%;
-    text-align: justify;
+    text-align: center;
     margin: 2% 0% 2% 0%;
 }
 
@@ -40,4 +40,27 @@ footer {
     background-color: deepskyblue;
     height: 50px;
     
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a {
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: deepskyblue;
+    color: none;
+}
+
+article a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+.nomasso {
+    align-items: center;
 }
